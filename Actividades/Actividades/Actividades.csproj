@@ -55,9 +55,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\campeonato\Arbitro.cs" />
+    <Compile Include="Modelo\campeonato\Campeonato.cs" />
     <Compile Include="Modelo\campeonato\Cancha.cs" />
     <Compile Include="Modelo\campeonato\Equipo.cs" />
+    <Compile Include="Modelo\campeonato\Jornada.cs" />
     <Compile Include="Modelo\campeonato\Jugador.cs" />
+    <Compile Include="Modelo\campeonato\Partido.cs" />
     <Compile Include="Modelo\Estudiante.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
