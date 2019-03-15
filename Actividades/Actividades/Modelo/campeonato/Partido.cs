@@ -41,12 +41,12 @@ namespace Actividades.Modelo.campeonato
             this._cancha = cancha;
         }
         
-        public Arbitro(Arbitro arbitro1, Arbitro arbitro2)
+       /* public Arbitro(Arbitro arbitro1, Arbitro arbitro2)
         {
             this._arbitro1 = arbitro1;
             this._arbitro2 = arbitro2;
         }
-
+        */
         public int Id { get; set; }
         public string Descripcion { get; set; }
         public DateTime Fecha { get; set; }

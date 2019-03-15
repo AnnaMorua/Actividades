@@ -17,7 +17,7 @@ namespace Actividades
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormEstudiante());
+            Application.Run(new FormaJournal());
         }
     }
 }

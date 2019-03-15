@@ -65,6 +65,24 @@
     <Compile Include="Modelo\Estudiante.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vista\Championship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Championship.Designer.cs">
+      <DependentUpon>Championship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormaCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormaCampeonato.Designer.cs">
+      <DependentUpon>FormaCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormaJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormaJournal.Designer.cs">
+      <DependentUpon>FormaJournal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FormEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +101,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vista\Championship.resx">
+      <DependentUpon>Championship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormaCampeonato.resx">
+      <DependentUpon>FormaCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormaJournal.resx">
+      <DependentUpon>FormaJournal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\FormEstudiante.resx">
       <DependentUpon>FormEstudiante.cs</DependentUpon>
     </EmbeddedResource>

@@ -31,9 +31,27 @@ namespace Actividades.Modelo.campeonato
         //Resultado de laasociacion entre campeonato y jornada
         private List<Jornada> _jornadas = new List<Jornada>();
 
+
+
         //Metodos Getter`s y Setter`s
-        public int Id { get; set; }
-        public string Nombre{ get; set;}
+        public int Id {
+            get {
+                return _id;
+            }
+
+            set {
+            }
+        }
+        public string Nombre{
+            get {
+                return _nombre;
+            }
+
+            set {
+
+            }
+                    
+         }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
 
